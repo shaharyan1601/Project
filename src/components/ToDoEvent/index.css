@@ -1,0 +1,239 @@
+
+html {
+	overflow-y: scroll;
+  }
+  
+  body {
+	background: body-bg;
+	font-family: 'Titillium Web', sans-serif;
+  }
+  
+  a {
+	text-decoration: none;
+	color: main;
+	/* transition:.5s ease; */
+	/* &:hover {
+		color:main-dark;
+	  } */
+  }
+  
+  .form {
+	background: rgba(form-bg, .9);
+	padding: 40px;
+	max-width: 600px;
+	max-height: 500px;
+	margin: 40px auto;
+	border-radius: 0%;
+	box-shadow: 0 4px 10px 4px rgba(form-bg, .3);
+  }
+  
+  .tab-content {
+	padding: 0%;
+	margin-top: 0%;
+	border-radius: 25px;
+	/* border: 2px solid #73AD21; */
+	padding: 20px;
+	width: 200px;
+	height: 150px;
+  
+  }
+  
+  .tab-group {
+	list-style: none;
+	padding: 0;
+	margin: 0 0 40px 0;
+  
+	/* &:after {
+		content: "";
+		display: table;
+		clear: both;
+	  } */
+	li a {
+	  display: inline;
+	  text-decoration: none;
+	  padding: 15px;
+	  background: rgba(gray-light, .25);
+	  color: gray-light;
+	  font-size: 20px;
+	  /* float: left; */
+	  width: 50%;
+	  text-align: center;
+	  cursor: pointer;
+	  /* transition:.5s ease; */
+	  /* &:hover { 
+		  background: -moz-repeating-radial-gradient();
+		  color:rgb(235, 10, 10);
+		} */
+	}
+  
+	/* .active a {
+		background:main;
+		color:white;
+	  } */
+  }
+  
+  div#form {
+	color: #fff;
+	background-attachment: scroll;
+	background: #454e5c url(https://static.pexels.com/photos/8819/warsaw.jpg);
+	background-position: center center;
+	background-repeat: none;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	min-height: 100%;
+  
+  }
+
+.dialog{
+	margin-top: 10px;
+	padding: 0;
+	width: 50%;
+	height: 90%; 
+	border-radius: 20px;
+	border: #b9b9b9;
+	
+}
+
+.reminder-wrap{
+	width:100%;
+	margin:auto;
+	max-width:625px;
+	min-height:370px;
+	position:relative;
+}
+
+.reminder_html{
+	width: 70%;
+	height:100%;
+	position: relative;
+	padding:10px 50px 50px 50px; 
+	
+} 
+
+.reminder_html .tab{
+	font-size:15px;
+	margin-right:15px;
+	padding-bottom:5px;
+	margin:0 15px 10px 0;
+	display:inline-block;
+	border-bottom:2px solid transparent;
+}
+
+.reminder_html .event:checked + .tab,
+.reminder_html .reminder:checked + .tab{
+	color:#0c0b0b;
+	border-color:#690996;
+}
+
+.reminder_html .reminder,
+.reminder_html .event,
+.event-form .group .check{
+	display:none; 
+} 
+.reminder_html .tab,
+.event-form .group .label,
+.event-form .group .button{
+	text-transform:uppercase;
+}
+
+.form {
+	background:rgba(form-bg,.9);
+	padding: 40px;
+	max-width:600px;
+	margin:40px auto;
+	border-radius:br;
+	box-shadow:0 4px 10px 4px rgba(form-bg,.3);
+  }
+  
+  .field-wrap {
+	position:relative;
+	margin-bottom:20px;
+  }
+
+  .field-wrap1 {
+	display: flex;
+	flex-direction: column;
+	position:relative;
+	margin-bottom:20px;
+  }
+
+  .reminder_style{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	width: 150px;
+    border: 1px solid rgb(109, 1, 109);
+    background-color: rgb(90, 9, 90);
+    color: white;
+    border-top-left-radius: 17px;
+    border-bottom-right-radius: 18px;
+    font-size: 20px;
+
+}
+
+.reminder_event{
+	width: 100%;
+	/* padding-left: 4px;
+	padding-right: 4px; */
+	display: flex;
+	justify-content: space-around;
+}
+
+.title_priority{
+    display: flex;
+	justify-content: space-between;
+	display: flex;
+	/* width: 50px;  */
+	/* flex-direction: column; */
+}
+
+/* .time_date{
+	
+	width: 50px; 
+	flex-direction: c;
+} */
+
+.button-style{
+	width: 130px;
+	border: 10px solid rgb(65, 10, 65);
+	background-color: rgb(65, 7, 65);
+	color: white;
+	border-top-right-radius: 17px;
+	border-bottom-left-radius: 18px;
+	font-size: 15px;
+
+}
+
+.button{
+	width: 100px;
+	height: 30px;
+}
+
+input{
+	width: auto;
+	height: 25px;
+	border-radius: 5px;
+	border-color: #dadada;
+	/* margin-right: 50px; */
+}
+
+select{
+    height: 25px;
+	width: auto;
+	border-radius: 5px;
+    border-color: #dadada;
+}
+
+textarea{
+	height: 100px;
+	width: auto;
+	border-radius: 5px;
+}
+
+.field-wrapB{
+	text-align: center; 
+	
+}

@@ -1,0 +1,178 @@
+/* Base styles */
+.login-page {
+  display: grid;
+  grid-auto-flow: row;
+}
+
+.banner_image {
+  width: 100%;
+  height: 80%;
+  margin: 0;
+  padding: 0;
+  object-fit: cover;
+}
+
+.bottom-part {
+  background-color: #e5e5e5;
+  height: 48vh;
+  position: relative;
+}
+.LogInLabelSize{
+    margin-bottom: 10px;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5vw;
+    letter-spacing: 4.3px;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 600;
+}
+
+.form_part {
+  position: relative; /* Change position to relative */
+  width: 80%; /* Adjust width for smaller screens */
+  max-width: 500px; /* Limit maximum width */
+  margin: 5% auto; /* Center horizontally and adjust margin top */
+  box-shadow: 1px 1px 10px black; /* Add box shadow */
+  background: #ffffff;
+  border-radius: 2rem; /* Adjust border radius */
+  padding: 2rem; /* Adjust padding */
+}
+
+.username {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem; /* Adjust margin top */
+  max-width: 80%;
+  justify-content: center !important;
+}
+
+
+.username input {
+  width: 100% !important; /* Make input full width */
+  margin-top: 1rem; /* Adjust margin top */
+  padding: 0.5rem; /* Adjust padding */
+  margin-left: 5% !important;
+  
+}
+
+
+.username label {
+  margin-right: 30rem !important; /* Adjust margin right */
+  font-family: "Poppins", sans-serif;
+  margin-bottom: -1px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1vw !important;
+  line-height: 24px;
+  color: #000000;
+  margin-left: 5% !important;
+}
+
+.login {
+  width: 68% !important; 
+  height: auto;
+  margin-top: 2rem; 
+  margin-right: 1.3rem;
+  background: #552D59;
+  color: white;
+  border-radius: 5px;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 1vw;
+}
+
+.ForGotPasswordLabel {
+  margin-top: 1rem; /* Adjust margin top */
+}
+
+.forgotPassword {
+  font-size: 1.5rem; /* Adjust font size */
+  margin-left: 20rem !important; /* Adjust margin left */
+  text-decoration: none;
+  color: rgba(0, 0, 0, 1);
+  transition: transform 0.5s;
+  font-weight: 400;
+  
+}
+
+.forgotPassword:hover {
+  color: #552D59;
+  text-decoration: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+input::placeholder {
+  font-size: 0.8rem; /* Adjust placeholder font size */
+}
+
+.login-page-none {
+  background-color: black;
+}
+
+.username-input {
+  text-indent: 0.5rem; /* Adjust text indent */
+}
+
+/* Media query for laptop */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .form_part {
+    width: 80%; /* Adjust width */
+    max-width: 500px; /* Limit maximum width */
+    margin: 5% auto; /* Center horizontally and adjust margin top */
+    padding: 4%; /* Adjust padding */
+  }
+
+  .LogInLabelSize {
+    font-size: 2.5vw; /* Adjust font size */
+  }
+
+  .forgotPassword {
+    font-size: 1vw; /* Adjust font size */
+    margin-left: 1rem; /* Adjust margin left */
+  }
+
+  .login {
+    width: 21vw; /* Adjust width */
+    height: auto;
+    margin-top: 2%;
+    font-size: 1.5vw; /* Adjust font size */
+  }
+
+  .username label {
+    margin-right: 2rem; /* Adjust margin right */
+    font-size: 1.4vw; /* Adjust font size */
+  }
+}
+
+/* Shake animation */
+.wrong-input-animation {
+  border: 1px solid red;
+  transition: 0.1s ease-in-out all;
+  animation: shakeAnimation 1.5s ease-in-out;
+}
+
+@keyframes shakeAnimation {
+  0% {
+    transform: translateX(0px);
+    border: 1px solid red;
+  }
+  20% {
+    transform: translateX(20px);
+    border: 1px solid red;
+  }
+  50% {
+    transform: translateX(-20px);
+    border: 1px solid red;
+  }
+  75% {
+    transform: translateX(20px);
+    border: 1px solid red;
+  }
+  100% {
+    transform: translateX(0px);
+    border: 1px solid red;
+  }
+}

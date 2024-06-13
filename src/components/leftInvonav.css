@@ -1,0 +1,29 @@
+.leftInfoNavContainer{
+    background-color: #552D59;
+    position: absolute;
+    width: 218px;
+    top: 0;
+    height: 100%; 
+    padding-top: 180px;
+}
+.leftInfoNavContainer ul li{
+    list-style: none;
+    color: white;
+    text-align: left;
+    margin: 20px 0px;
+    /* background-color: gray; */
+    width: 100%;
+    padding: 10px;
+    padding-left: 30px;
+    cursor: pointer;
+}
+.leftInfoNavContainer ul li:hover{
+    background-color: rgba(245, 245, 245, 0.36);
+}
+.infoNav-section-active{
+    background-color: rgba(245, 245, 245, 0.36);
+}
+.leftInfoNavContainer ul{
+    margin: 0;
+    padding: 0;
+}

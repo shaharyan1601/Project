@@ -1,0 +1,59 @@
+.employee-track-page {
+  margin-left: 200px;
+  margin-top: 20px;
+  background-color: white;
+  text-align: left;
+  padding-bottom: 30px;
+  padding: 0px 20px;
+  border-radius: 8px;
+  width: 100%;
+}
+.employee-track-page .personal-details {
+  padding: 0px 30px 30px !important;
+}
+.employee-track-page .add_btn {
+  margin-top: 20px;
+}
+.first_btn {
+  padding: 5px 20px !important;
+  width: 5vw;
+  margin-right: 10px;
+}
+.employee-track-page .personal-details {
+  width: 100%;
+  background-color: white;
+  text-align: left;
+  padding-bottom: 30px;
+  border: 2px solid rgb(190, 190, 190);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.hiring-employee-list {
+  background-color: white;
+  margin-left: 200px;
+  text-align: left;
+  padding-bottom: 30px;
+  padding: 30px;
+  border-radius: 8px;
+  width: 100%;
+}
+.job-open-list-title {
+  margin-left: 20px;
+}
+.job-open-list-title h3 {
+  margin-top: 0px;
+}
+
+.hiring-employee-list tr {
+  padding: 10px;
+  border: 1px solid black;
+}
+.hiring-employee-list th {
+  padding: 15px;
+  font-weight: 400;
+  font-size: 16px;
+}
+.hiring-employee-list td {
+  padding: 15px;
+}

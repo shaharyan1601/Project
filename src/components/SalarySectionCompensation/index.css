@@ -1,0 +1,330 @@
+.compensation_list {
+  width: 80%;
+  background-color: white;
+  margin-left: 15vw;
+  margin-top: 20px;
+  text-align: left;
+  padding-bottom: 30px;
+  padding: 0px 20px;
+  border-radius: 8px;
+  position: relative;
+}
+.compensation-table {
+  width: 100%;
+  margin-top: 30px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 6px;
+}
+.compensation_list tr {
+  padding: 10px;
+  border: 1px solid black;
+}
+.compensation_list td,
+th {
+  padding: 15px;
+}
+.compensation_list td {
+  width: 5%;
+}
+.payroll-content {
+  margin-left: 20px;
+  width: 100%;
+}
+.payroll-content .section-title {
+  margin-top: 0;
+}
+.payroll_compensation_list .section-title {
+  margin-top: 0;
+}
+.serach_icon_div {
+  background-color: #552d59;
+  margin-left: 20px;
+  padding: 8px 8px 6px 8px;
+  border-radius: 10px;
+}
+.compensation_payslip {
+  width: 100%;
+  background-color: white;
+  margin-left: 15vw;
+  margin-top: 20px;
+  text-align: left;
+  padding-bottom: 30px;
+  padding: 0px 20px;
+  border-radius: 8px;
+  position: relative;
+}
+.view-btn {
+  background-color: purple !important; /* Use !important to override inline styles */
+  color: white !important; /* Use !important to override inline styles */
+}
+
+.compensation_payslip .second-half {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin-right: 30px;
+  margin-left: 20px;
+}
+.compensation_payslip .second-half > div {
+  margin-top: 20px;
+}
+.compensation_payslip .box {
+  border: 1px solid #552d59;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+/* Customize the scrollbar */
+.compensation_payslip .scroll-container::-webkit-scrollbar {
+  width: 12px; /* Width of the entire scrollbar */
+}
+
+/* Customize the scrollbar track */
+.compensation_payslip .scroll-container::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Color of the scrollbar track */
+}
+
+/* Customize the scrollbar handle */
+.compensation_payslip .scroll-container::-webkit-scrollbar-thumb {
+  background-color: #552d59; /* Color of the scrollbar handle */
+  border-radius: 6px; /* Roundness of the scrollbar handle */
+  border: 3px solid #fff; /* Border around the scrollbar handle */
+}
+
+/* Change the appearance of the scrollbar on hover */
+.compensation_payslip .scroll-container::-webkit-scrollbar-thumb:hover {
+  background-color: #552d59;
+}
+
+.payroll__boxContainer{
+  width: 100%;
+  min-height: 300px;
+  border: 2px solid rgb(164, 164, 164);
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  /* grid-template-rows: repeat(2,1fr); */
+  grid-gap: 10px;
+  padding: 10px;
+}
+.payrollBox{
+  /* background-color: #552d59; */
+  padding: 8px;
+  border: 2px solid rgb(164, 164, 164);
+  border-radius: 8px;
+}
+.paydate{
+  grid-row-start: 1;
+  grid-row-end: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.payroll_header{
+  display: flex;
+  justify-content: space-between;
+}
+.payroll__title{
+  font-size: 22px;
+}
+.payroll__price{
+  font-size: 22px;
+  font-weight: 700;
+}
+.payload__desc{
+  font-size: 16px;
+  margin-top: 10px;
+}
+.payload__upcolor{
+  color: green;
+}
+.payload__downcolor{
+  color: red;
+}
+.paydate_img{
+  font-size: 35px;
+  width: 70px;
+  height: 70px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border: 2px solid green;
+  color: green;
+  border-radius: 50%;
+  margin: 15px 5px;
+}
+.paydate__date{
+  font-size: 20px;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.paydate__number{
+  font-size: 22px;
+}
+.paydate__run{
+  margin: 10px 0;
+  margin-bottom: 5px;
+}
+.paydate__range{
+  font-size: 16px;
+  color: black;
+}
+.setRed{
+  color: red;
+}
+.setGreen{
+  color: green;
+}
+.setUnderBox{
+  border: 1px solid rgb(172, 225, 158);
+  color: green;
+  border-radius: 5px;
+  padding: 0 10px;
+}
+.payslip_link{
+  text-decoration: underline;
+  color: rgb(67, 172, 229);
+}
+.payslip_link:visited{
+  color: rgb(67, 172, 229);
+}
+.payroll__options{
+  display: flex;
+  justify-content: space-between;
+}
+.payroll_search_container{
+  position: relative;
+}
+.payroll_search_container .searchIcon{
+  position: absolute;
+  left: 10px;
+  top: 7px;
+  font-size: 16px;
+}
+.payroll_search_container input{
+  padding: 5px 10px;
+  border-radius: 8px;
+  padding-left: 35px;
+  font-size: 16px;
+  width: 340px;
+  outline: none;
+  border: 1px solid rgb(139, 139, 139);
+}
+.payroll__addShare{
+  display: flex;
+  gap: 10px;
+}
+.payroll__addShare button{
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+.payroll__addShare .addBtn{
+  background-color: white;
+  border: 1px solid gray;
+}
+.payroll__addShare .shareBtn{
+  background-color: #552d59;
+  color: white;
+  border: 0;
+  width: max-content;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.table_scroll{
+  height: 400px;
+  /* margin-top: 20px; */
+  overflow-y: scroll;
+}
+/* .table_scroll::-webkit-scrollbar{
+  width: 10px;
+} */
+.table_scroll::-webkit-scrollbar {
+  width: 8px;               /* width of the entire scrollbar */
+}
+
+.table_scroll::-webkit-scrollbar-track {
+  background: white       /* color of the tracking area */
+}
+
+.table_scroll::-webkit-scrollbar-thumb {
+  background-color: #552d59;    /* color of the scroll thumb */
+  border-top: 30px solid white;
+}
+
+
+.popUpSection{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.750);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section_wrapper{
+  width: 600px;
+  height: 500px;
+  background-color: white;
+}
+.input_container{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 15px;
+  margin-top: 30px;
+  column-gap: 10px;
+}
+.input_container input{
+  width: 100%;
+  padding: 5px 10px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+.input_container .full-width{
+  grid-column-start: 1;
+  grid-column-end: 3;
+  width: 100%;
+  height: 100px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input_container .full-width input{
+  display: none;
+}
+.input_container .full-width span{
+  background-color: lightgray;
+  padding: 15px 40px;
+  cursor: pointer;
+}
+.inputShare_container{
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.inputShare_container input[type="radio"]{
+  margin-bottom: 18px;
+}
+.inputShare_container select{
+  width: 100%;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(203, 203, 203);
+}
+.range_period{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+}
+.react-datepicker-popper{
+  z-index: 20;
+}

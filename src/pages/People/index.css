@@ -1,0 +1,17 @@
+.two-panel {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  background-color: white;
+  padding-right: 10px;
+}
+.one-panel {
+  background-color: white;
+  padding-right: 10px;
+}
+.right-panel {
+  margin-top: 80px;
+}
+h3{
+  margin-left: 10px;
+}

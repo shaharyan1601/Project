@@ -1,0 +1,12 @@
+.leave-container{
+    background-color: white;
+    box-sizing: border-box;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.leave-wrapper{
+    position: relative;
+    padding-bottom: 30px;
+    flex-grow: 1;
+}

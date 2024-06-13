@@ -1,0 +1,48 @@
+.question {
+  margin: 14px 0px;
+  font-size: medium;
+}
+.choice-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 25% 25%;
+  margin-left: -2%;
+  font-weight: 100;
+
+}
+.choice-listIem {
+  margin-bottom: 1px;
+  font-weight: normal;
+}
+.container {
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.checkmark{
+  font-weight: normal;
+  color: black;
+}
+
+.checkmark::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 12px;
+  width: 15px;
+  background-color: #eee;
+  display: block;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.container input:checked ~ .checkmark::after {
+  background-color: #2196f3;
+}

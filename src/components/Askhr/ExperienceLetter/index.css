@@ -1,0 +1,21 @@
+.flex {
+    display: flex;
+  }
+  .add-job-page {
+    margin-left: 200px;
+    margin-top: 20px;
+    background-color: white;
+    text-align: left;
+    padding-bottom: 30px;
+    padding: 0px 20px;
+    border-radius: 8px;
+    width: 100%;
+  }
+  .add-job-open-content {
+    margin-left: 20px;
+    width: 100%;
+  }
+  .add-job-open-title {
+    margin-top: 0px;
+  }
+  

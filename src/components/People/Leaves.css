@@ -1,0 +1,93 @@
+.leaves-list {
+    background-color: white;
+    margin-left: 200px;
+    text-align: left;
+    padding-bottom: 30px;
+    padding: 30px;
+    border-radius: 8px;
+  }
+  .leaves-list .first-grid {
+    box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .leaves-list .first-sub-grid {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .leaves-list .first-sub-grid:first-child {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);;
+  }
+  .leaves-list .grid-inside {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  h1 {
+    margin-right: 20px;
+  }
+  .with-border {
+    border-right: 2px solid orange;
+    border-left: 2px solid orange;
+    padding: 0px 60px !important;
+    padding-left: 30px;
+  }
+  .with-border2 {
+    border-right: 2px solid orange;
+    border-left: 2px solid orange;
+    padding: 0px 40px !important;
+    margin-left: 50px;
+  }
+  
+  .second-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+  }
+  .second-grid .grid-2 {
+    box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  .grid-1 .grid-1-inside {
+    margin-top: 20px;
+    box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  .grid-1 .grid-1-inside ul li > div:first-child {
+    color: black;
+  }
+  .grid-1 .grid-1-inside ul li > div span {
+    color: gray;
+  }
+  
+  .grid-1 .grid-1-inside ul {
+    list-style-type: none; /* Remove default bullets */
+  }
+  
+  .grid-1 .grid-1-inside ul li {
+    position: relative;
+    padding-left: 20px; /* Adjust the padding to make room for the larger bullet */
+  }
+  
+  .grid-1 .grid-1-inside ul li::before {
+    content: "\2022";
+    color: rgb(73, 205, 50);
+    font-size: 3em;
+    position: absolute;
+    left: 0;
+    top: 30%;
+    transform: translateY(-50%);
+  }
+  

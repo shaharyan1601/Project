@@ -1,0 +1,174 @@
+.calendar__container{
+    width: 70%;
+    background-color: white;
+    margin-left: 250px;
+    /* padding-top: 20px; */
+    text-align: left;
+    padding-bottom: 30px;
+    /* border: 2px solid rgb(190, 190, 190); */
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 8px;
+    position: relative;
+}
+.calendar__wrapper{
+    width: 100%;
+    margin-top: 30px;
+}
+.leave__desc{
+    color:grey;
+}
+.calendar__header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 10px;
+}
+.calendar__header button{
+    font-size: 20px;
+    width: 30px;
+    font-weight: 700;
+    background-color: white;
+    box-shadow: 0px 2px 4px rgb(113, 113, 113);
+    margin-left: 8%;
+    margin-right: 7%;
+}
+.month__year{
+    font-size: 20px;
+}
+.calendar__table{
+    width: 100%;
+    table-layout: fixed;
+    
+}
+.calendar__table td, .calendar__table tr, .calendar__table th{
+    border: 1px solid black;
+}
+.calendar__table td{
+    height: 82px;
+    text-align: right;
+    vertical-align: top;
+    padding: 10px;
+    position: relative;
+    color: black;
+}
+
+.calendar__table .weekDays{
+    /* display: flex; */
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    background-color: #CB2F2F;
+    color: white;
+    height: 25px;
+    width: 25px;
+    padding-right: 6px;
+    padding-top: 3px;
+    /* padding: 5px; */
+    border-radius: 50%;
+}
+.today{
+    background-color: grey;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #CB2F2F; */
+    color: rgb(245, 227, 64) !important;
+    height: 25px;
+    width: 25px;
+    padding-right: 6px;
+    padding-top: 3px;
+    border: 2px solid rgb(245, 227, 64);
+    background-color: white !important;
+    /* padding: 5px; */
+    border-radius: 5px !important;
+}
+.leaveLabel{
+    position: absolute;
+    bottom: 7px;
+    right: 8px;
+    font-size: 13px;
+    line-height: 13px;
+    text-align: left;
+    vertical-align: bottom;
+    padding-left: 8px;
+}
+.sickLeave{
+    background-color: #e3a00f7d;
+}
+
+.holiday{
+    background-color: #2fcb3f81;;
+}
+.casualLeave{
+    background-color: #9747ff82;
+}
+.maternityLeave{
+    background-color: #e9664883;
+}
+.paternityLeave{
+    background-color: #0fe3e380;
+}
+.bereavementLeave{
+    background-color: #0f24e380;
+}
+.lossOfPayLeave{
+    background-color: #860e0e82;
+}
+.sickLeaveCircle{
+    background-color: #E3A10F;
+}
+.casualCircle{
+    background-color: #9747FF;
+}
+.maternityCircle{
+    background-color: #E96548;
+}
+.paternityCircle{
+ background-color: #0FE3E3;
+}
+.bereavementCircle{
+    background-color: #0F24E3;
+}
+.lossOfPayCircle{
+    background-color: #860E0E;
+}
+.circle{
+    
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+.holidayCircle{
+    background-color: #2fcb2f;
+}
+
+/* .calendar__markers{
+    margin-top: 15px;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.calendar__markers .circle{
+    margin-right: 5px;
+} */
+
+.calendar__markers .div {
+    display: flex; /* Use flexbox */
+    align-items: center; /* Center items vertically */
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+.calendar__markers .circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.calendar__markers .leaveLabel {
+    white-space: nowrap; /* Prevent text from wrapping */
+}

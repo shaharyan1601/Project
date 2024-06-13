@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 20%;
+  max-height: 100%;
+  background: rgb(149, 171, 182);
+  color: white;
+}
+
+.side_nav_bar
+{
+  overflow-y: scroll;
+}
+
+.side_nav_bar::-webkit-scrollbar {
+  display: none;
+}

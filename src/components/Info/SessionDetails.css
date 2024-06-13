@@ -1,0 +1,95 @@
+.leave__history__container {
+    width: calc(100% - 500px);;
+    background-color: white;
+    margin-left: 250px;
+    /* padding-top: 20px; */
+    text-align: left;
+    padding-bottom: 30px;
+    /* border: 2px solid rgb(190, 190, 190); */
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 8px;
+    position: relative;
+  }
+  .leave__history__header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .leave__history__header select {
+    padding: 10px 5px;
+    width: 260px;
+    border-radius: 8px;
+  }
+  .leave__history__filters {
+    display: flex;
+    gap: 34px;
+  }
+  .leaveRequest__button {
+    width: fit-content;
+    padding: 6px 10px;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid black;
+  }
+  .leave__history__table {
+    width: 70%;
+    margin-top: 30px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 6px;
+  }
+  .leave__history__container tr {
+    padding: 10px;
+    border: 1px solid black;
+  }
+  .leave__history__container td,
+  th {
+    padding: 15px;
+  }
+  .leave__history__table .table__head {
+    background-color: #552d59;
+    color: white;
+    border: none;
+  }
+  .leave__history__table td {
+    font-weight: 600;
+  }
+  .pending {
+    color: #e2a412;
+  }
+  .accepted {
+    color: #2fcb52;
+  }
+  .accepted__img {
+    height: 20px;
+  }
+  .loan_list {
+    width: calc(100% - 500px);;
+    background-color: white;
+    margin-left: 230px;
+    /* padding-top: 20px; */
+    text-align: left;
+    padding-bottom: 30px;
+    /* border: 2px solid rgb(190, 190, 190); */
+    padding: 0px 20px;
+    /* margin-top: 30px; */
+    border-radius: 8px;
+    position: relative;
+  }  
+  .btn{
+    margin-top: 30px;
+    padding: 10px 30px;
+    color: white;
+    background-color: #552D59;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    width: fit-content;
+    border-bottom: 2px solid orange !important;
+  
+}
+.btn:hover {
+  background-color: yellow !important;
+  color: #552d59 !important;
+}

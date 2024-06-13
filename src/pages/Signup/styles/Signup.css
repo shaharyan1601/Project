@@ -1,0 +1,282 @@
+.Signup-page {
+  display: grid;
+  grid-auto-flow: row;
+  min-height: 100vh;
+  margin-bottom: 100px;
+  grid-template-rows: auto 1fr;
+}
+
+.banner_image {
+  width: 100%;
+  height: 75%;
+  margin: 0;
+  padding: 0;
+  object-fit: cover;
+}
+
+.bottom-part {
+  background-color: #e5e5e5;
+  height: 48vh;
+  position: relative;
+}
+
+.SignupLabelSize {
+  margin-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.7vw;
+  letter-spacing: 4.3px;
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: 600;
+}
+
+.form_part {
+  position: absolute;
+  height: auto;
+  width: 40%;
+  max-width: 550px;
+  margin-left: 31%;
+  margin-top: -15%;
+  filter: drop-shadow(1px 1px 10px black);
+  background: #ffffff;
+  border-radius: 45px;
+  padding: 2% 2% 4% 2%;
+  margin-bottom: 40px;
+}
+
+
+  .logo {
+    max-width: 100%; /* Ensure the logo doesn't exceed its container's width */
+    height: 14vh; /* Maintain the aspect ratio of the logo */
+    border-radius: 25px; /* Adjust border radius if needed */
+    margin-top: 5%; /* Adjust margin-top based on your layout */
+    margin-bottom: 2%; /* Adjust margin-bottom based on your layout */
+  }
+
+
+.username {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4%;
+  margin-left: 12%;
+  margin-right: 20%;
+  max-width: 90%;
+}
+
+.username input {
+  width: 74%;
+  margin-left: 16%;
+  background-color: #f1f1f1;
+  outline: none;
+  height: 4.2vh;
+  border: none;
+  display: inline-block;
+  margin-top: 1.5%;
+}
+
+.username label {
+  margin-right: 41%;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: -1px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2vw;
+  line-height: 24px;
+  color: #000000;
+}
+
+.email-label {
+  margin-right: 52% !important;
+}
+
+.password-label {
+  margin-right: 20% !important;
+}
+
+.Signup {
+  position: relative;
+  width: 16vw;
+  height: 4vh;
+  background: #552d59;
+  color: white;
+  border-radius: 5px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  margin-right: 4%;
+  margin-top: 2%;
+  font-size: 1vw;
+}
+
+.ForGotPassLabel {
+  margin-top: 1.3%;
+}
+
+.term-conditions {
+  font-size: 1vw;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 10px;
+  margin-right: 25px;
+  margin-bottom: 20px;
+}
+
+.term-conditions input {
+  margin: 0;
+}
+
+.forgotPass {
+  position: relative;
+  font-size: 1vw;
+  margin-left: 19.5%;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 1);
+  transition: transform 0.5s;
+  font-weight: 400;
+}
+
+.forgotPass:hover {
+  color: #552d59;
+  text-decoration: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+input::placeholder {
+  font-size: 12px;
+}
+
+.login-page-none {
+  background-color: black;
+}
+
+.username-input {
+  text-indent: 10px;
+}
+
+.wrong-input-animation {
+  border: 1px solid red;
+  transition: 0.1s ease-in-out all;
+  animation: shakeAnimation 1.5s ease-in-out;
+}
+
+@keyframes shakeAnimation {
+  0% {
+    transform: translateX(0px);
+    border: 1px solid red;
+  }
+  20% {
+    transform: translateX(20px);
+    border: 1px solid red;
+  }
+  50% {
+    transform: translateX(-20px);
+    border: 1px solid red;
+  }
+  75% {
+    transform: translateX(20px);
+    border: 1px solid red;
+  }
+  100% {
+    transform: translateX(0px);
+    border: 1px solid red;
+  }
+}
+
+/* Media queries for responsiveness */
+
+
+@media (min-width: 576px) {
+  .form_part {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: -12%;
+  }
+
+  .username label {
+    font-size: 1.4vw;
+    margin-right: 43%;
+  }
+
+  .Signup {
+    width: 30vw;
+    font-size: 1.2vw;
+  }
+
+  .forgotPass {
+    font-size: 1vw;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .form_part {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: -12%;
+  }
+
+  .username label {
+    font-size: 1.5vw;
+    margin-right: 43%;
+  }
+
+  .Signup {
+    width: 25vw;
+    font-size: 1.3vw;
+  }
+
+  .forgotPass {
+    font-size: 1.1vw;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .form_part {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: -12%;
+  }
+
+  .username label {
+    font-size: 1.6vw;
+    margin-right: 43%;
+  }
+
+  .Signup {
+    width: 20vw;
+    font-size: 1.4vw;
+  }
+
+  .forgotPass {
+    font-size: 1.2vw;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .form_part {
+    width: 40%;
+    margin-left: 30%;
+    margin-top: -12%;
+  }
+
+  .username label {
+    font-size: 1.7vw;
+    margin-right: 43%;
+  }
+
+  .Signup {
+    width: 18vw;
+    font-size: 1.5vw;
+  }
+
+  .forgotPass {
+    font-size: 1.3vw;
+  }
+}

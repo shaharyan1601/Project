@@ -1,0 +1,38 @@
+.survey_section {
+  width: 80%;
+  background-color: white;
+  margin-left: 230px;
+  text-align: left;
+  padding-bottom: 30px;
+  padding: 0px 20px;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+}
+.survey_form {
+  margin-top: 30px;
+}
+.survey_textarea {
+  margin-top: 30px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+.survey_textarea textarea {
+  width: 100%;
+  border-radius: 5px;
+  outline: none;
+  padding: 10px;
+  resize: "none";
+  border: 1px solid #ccc;
+  resize: none;
+}
+.survey-select-icon {
+  width: 5%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: orange;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  height: 100%;
+}

@@ -1,0 +1,65 @@
+.title {
+  background-color: #552d59 !important;
+  color: #f1f1f1;
+  padding: 10px 20px;
+  border-radius: 10px 0px;
+  /* width: 15vw; */
+  display: inline-block;
+  font-size: 16px;
+}
+.leave_details {
+  display: flex;
+}
+.leave_details .employee_img {
+  height: 35px;
+}
+.leave_details .employee_leave_details {
+  margin-left: 10px;
+  width: 100%;
+}
+.leave_details .employee_leave_details .employee_name {
+  font-weight: 600;
+}
+.brief_reason {
+  color: rgb(200, 200, 200);
+}
+.calender_view {
+  color: rgb(200, 200, 200);
+  text-decoration: underline;
+}
+.reason {
+  background-color: #552d59;
+  color: #f1f1f1;
+  height: 10vh;
+  border-radius: 10px;
+  padding: 10px;
+}
+.comments {
+  height: 10vh;
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 10px;
+  resize: none;
+  padding: 10px;
+}
+.modal_btn {
+  padding: 5px 20px !important;
+  text-transform: capitalize !important;
+  font-size: 16px !important;
+  font-family: inherit !important;
+  width: 10vw;
+}
+.first_btn {
+  background-color: #552d59 !important;
+  color: #f1f1f1 !important;
+  /* border-radius: 0px 10px !important; */
+  border-bottom-left-radius: 25px !important;
+  border-top-right-radius: 25px !important;
+  border-bottom: 2px solid orange !important;
+}
+.second_btn {
+  border: 1px solid gray !important;
+  color: gray !important;
+  border-radius: 5px !important;
+  background-color: transparent !important;
+}

@@ -1,0 +1,139 @@
+.info_calendar__container {
+  width: 100%;
+  background-color: white;
+  /* padding-top: 20px; */
+  text-align: left;
+  padding-bottom: 30px;
+  /* border: 2px solid rgb(190, 190, 190); */
+  padding: 20px;
+  margin-top: 30px;
+  border-radius: 8px;
+  position: relative;
+}
+.calendar__wrapper {
+  width: 100%;
+  margin-top: 30px;
+}
+.leave__desc {
+  color: grey;
+}
+.calendar__header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 10px;
+}
+.calendar__header button {
+  font-size: 20px;
+  width: 30px;
+  font-weight: 700;
+  background-color: white;
+  box-shadow: 0px 2px 4px rgb(113, 113, 113);
+}
+.month__year {
+  font-size: 20px;
+}
+.info_calendar__table {
+  width: 100%;
+  table-layout: fixed;
+}
+.info_calendar__table td,
+.info_calendar__table tr,
+.info_calendar__table th {
+  /* border: 1px solid black; */
+}
+.info_calendar__table td {
+  height: 74px;
+  text-align: right;
+  vertical-align: top;
+  padding: 10px;
+  position: relative;
+  color: black;
+}
+
+.info_calendar__table .weekDays {
+  /* display: flex; */
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  background-color: #cb2f2f;
+  color: white;
+  height: 25px;
+  width: 25px;
+  padding-right: 6px;
+  padding-top: 3px;
+  /* padding: 5px; */
+  border-radius: 50%;
+}
+.today {
+  background-color: grey;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #CB2F2F; */
+  color: rgb(245, 227, 64) !important;
+  height: 25px;
+  width: 25px;
+  padding-right: 6px;
+  padding-top: 3px;
+  border: 2px solid rgb(245, 227, 64);
+  background-color: white !important;
+  /* padding: 5px; */
+  border-radius: 5px !important;
+}
+.leaveLabel {
+  position: absolute;
+  bottom: 7px;
+  right: 8px;
+  font-size: 13px;
+  line-height: 13px;
+  text-align: left;
+  vertical-align: bottom;
+  padding-left: 8px;
+}
+.holiday {
+  background-color: #2fcb3f81;
+}
+.approvedCircle {
+  background-color: #0fe3e3;
+}
+.approvedLeave {
+  background-color: #0fe3e3;
+  border-radius: 50%;
+  padding: 5px;
+}
+.pendingLeave {
+  border: 2px solid rgb(245, 227, 64);
+  border-radius: 50%;
+  padding: 5px;
+}
+.rejectedLeave {
+  border: 2px solid #cb2f2f;
+  border-radius: 50%;
+  padding: 5px;
+}
+.pendingCircle {
+  border: 2px solid rgb(245, 227, 64);
+}
+.rejectedCircle {
+  border: 2px solid #cb2f2f;
+}
+.circle {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+.holidayCircle {
+  background-color: #2fcb2f;
+}
+.calendar__markers {
+  margin-top: 15px;
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.calendar__markers .circle {
+  margin-right: 5px;
+}

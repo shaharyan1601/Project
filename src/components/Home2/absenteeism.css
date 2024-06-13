@@ -1,0 +1,8 @@
+.absent_container {
+    border: 1px solid black; /* Removed quotes around black */
+    border-radius: 8px;
+    margin-right: 20px;
+    height: 40%; /* Removed quotes around 40% */
+    width: 50%; /* Removed quotes around 50% */
+  }
+  

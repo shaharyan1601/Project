@@ -1,0 +1,111 @@
+.sign-box {
+  border: 1px solid black;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sign-box .nav-tab {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+}
+.type-text,
+.draw-text {
+  border: none;
+  outline: none;
+  width: 70%;
+  border-bottom: 2px solid #eee;
+  text-align: center;
+}
+.color-list {
+  display: flex;
+  justify-content: space-around;
+  width: 20%;
+  padding: 10px 20px;
+}
+.color-list > div {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.sign-box label {
+  color: gray;
+  margin-top: 20px;
+  width: 70%;
+  display: flex;
+}
+.sign-box input {
+  height: 15px;
+}
+.sign-box label span {
+  margin-left: 15px;
+}
+.each_tab .first_btn {
+  margin-right: 0;
+  width: 8vw;
+  margin: 10px 0px 10px 0px;
+}
+.tab-content > .active {
+  opacity: 1;
+}
+.sign-box .nav-tabs {
+  border-bottom: none;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.sign-box .nav-tabs .nav-item > .active {
+  border-bottom: 2px solid orange;
+  color: #552d59;
+  font-weight: 600;
+}
+.sign-box .nav-item .nav-link {
+  background-color: transparent;
+}
+.draw-comp,
+.upload-comp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sign-box .custom-select-container {
+  width: 30%;
+  margin-top: 30px;
+}
+.sign-box .custom-select {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+.sign-box .custom-select .custom-select-icon {
+  background-color: transparent;
+}
+.sign-box .type-text {
+  margin-top: 170px;
+  color: var(--color);
+}
+.sign-box .draw-text {
+  color: gray;
+}
+.dragDrop {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.dragDrop span {
+  background-color: #552d59;
+  border-radius: 50%;
+  color: white;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+.image_border {
+  border: 1px solid #552d59;
+  padding: 2px;
+  border-radius: 50%;
+  text-align: center;
+  height: 26px;
+}

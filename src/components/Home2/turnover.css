@@ -1,0 +1,20 @@
+.turnover_container{
+        border-radius: "10px";
+        border: "1px solid #878585";
+        box-shadow:
+          "0px 2.209px 2.209px 0px rgba(0, 0, 0, 0.25), 0px 2.209px 2.209px 0px rgba(0, 0, 0, 0.1) inset";
+        background-color: "#fff";
+        min-height: "446px";
+        min-width: "722px";
+        margin: "10px";
+        display: "flex";
+                  justify-content: "space-between";
+                  margin-left: "20px";
+                  margin-right: "10px";
+    
+        /* border-radius: "10px";
+        border: 1px solid "#black";
+        border-radius:8px;
+        box-shadow:  "0px 2.209px 2.209px 0px rgba(0, 0, 0, 0.25), 0px 2.209px 2.209px 0px rgba(0, 0, 0, 0.1) inset";
+        margin:10px; */
+}

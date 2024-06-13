@@ -1,0 +1,38 @@
+.recharts-default-tooltip {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 4px;
+  }
+  
+  .recharts-cartesian-grid-horizontal line,
+  .recharts-cartesian-grid-vertical line {
+    stroke: #ccc;
+    stroke-width: 1;
+  }
+  
+  .recharts-bar-rectangle {
+    fill: #8884d8;
+  }
+  
+  .recharts-bar-rectangle:hover {
+    fill: #6e6ad6;
+  }
+  
+  .recharts-xaxis-tick text {
+    font-size: 12px;
+    fill: #333;
+  }
+  
+  .recharts-yaxis-tick text {
+    font-size: 12px;
+    fill: #333;
+  }
+  
+  .recharts-legend-item {
+    font-size: 14px;
+    fill: #333;
+  }
+  .faq-paragraph {
+    margin-left: 35px; 
+  }

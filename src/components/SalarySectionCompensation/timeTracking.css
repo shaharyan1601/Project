@@ -1,0 +1,143 @@
+.time-sheet-list {
+  width: 100%;
+  background-color: white;
+  margin-left: 15vw;
+  margin-top: 20px;
+  text-align: left;
+  padding-bottom: 30px;
+  padding: 0px 20px;
+  border-radius: 8px;
+  position: relative;
+}
+.time-tracking-content .section-title {
+  margin-top: 0;
+}
+.time-sheet-list tr {
+  padding: 10px;
+  border: 1px solid gray;
+}
+.time-sheet-list td,
+th {
+  padding: 15px;
+}
+.time-tracking-table {
+  width: 100%;
+  margin-top: 30px;
+  text-align: center;
+  border: 1px solid gray;
+  border-radius: 6px;
+}
+.time-tracking-table .table__head {
+  background-color: #552d59;
+  color: white;
+  border: none;
+}
+.time-tracking-table td {
+  font-weight: 1000;
+  width: 35%;
+}
+.time-track-field {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px 0px;
+}
+.time-track-field .with_label {
+  background-color: transparent;
+  position: absolute;
+  bottom: 8px;
+  right: 0;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  width: 10%;
+  height: 65%;
+}
+.time-track-field .custom-select-container {
+  border-radius: 0;
+  width: 15%;
+}
+.time-track-field .custom-select-container:first-child {
+  margin-right: 20px;
+}
+.time-track-field .btns {
+}
+.time-track-field .btns button {
+  border: 1px solid gray;
+  height: 100%;
+}
+.time-log-table {
+  width: 100%;
+}
+.time-log-table th {
+  border-right: 1px solid gray;
+  background-color: #552d59;
+  color: white;
+}
+.time-log-table .dynamic-data {
+  border-right: 1px solid gray;
+  /* border: ; */
+}
+.time-log-table td:last-child {
+  background-color: #552d59;
+  color: white;
+}
+.time-log-table tr:last-child {
+  background-color: #552d59;
+  color: white;
+}
+.time-log-btns {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+
+}
+.time-log-btns .first_btn {
+  padding: 5px 20px !important;
+  text-transform: capitalize !important;
+  font-size: 16px !important;
+  font-family: inherit !important;
+  background-color: #552d59 !important;
+  color: #f1f1f1 !important;
+  border-bottom-left-radius: 25px !important;
+  border-top-right-radius: 25px !important;
+  border-bottom: 2px solid orange !important; 
+  outline: none;
+  width: auto;
+  margin-left: 10px;
+}
+.time-log-table .add-border {
+  border: 1px solid black;
+  padding: 2px 6px;
+}
+.time-log-table tr:last-child td span {
+  border: none;
+}
+.time-log-btns .first_btn:hover {
+  background-color: yellow !important;
+  color: #552d59 !important;
+}
+/* .time-log-table {
+  width: 100%;
+  text-align: center; 
+  border-collapse: collapse; 
+}
+
+.time-log-table th,
+.time-log-table td {
+  border: 1px solid gray;
+  padding: 10px;
+}
+
+.time-log-table th {
+  background-color: #552d59;
+  color: white;
+}
+
+.time-log-table td.center {
+  text-align: center; 
+}
+
+.time-log-table td.center div {
+  margin-bottom: 5px; 
+}  */
+
+

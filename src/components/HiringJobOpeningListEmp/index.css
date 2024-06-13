@@ -1,0 +1,89 @@
+.job-list-box {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  font-weight: 600;
+}
+.box-card {
+  border-radius: 0 0 12px 12px;
+  box-shadow: 0px 2px 4px rgb(210, 210, 210);
+  padding: 10px;
+}
+.card-role {
+  background-color: var(--color);
+  border-radius: 12px;
+  padding: 10px 5px;
+}
+.card-point-list {
+  padding: 0px 25px;
+}
+.card-date-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0px 10px 20px;
+}
+.date-details {
+  display: flex;
+  flex-direction: column;
+}
+.date-details > span:last-child {
+  color: gray;
+  font-weight: 400;
+}
+.card-date-details .view-details {
+  color: white;
+  background-color: #552d59;
+  width: 100px;
+  border-radius: 4px;
+  font-size: 13px;
+  padding: 4px;
+}
+.job-detail-page {
+  background-color: white;
+  margin-left: 200px;
+  text-align: left;
+  padding-bottom: 30px;
+  padding: 30px;
+  border-radius: 8px;
+  display: flex;
+}
+.job-detail-page .back-icon {
+  background-color: #552d59;
+  border-radius: 50%;
+  font-size: 16px;
+  height: 30px;
+  margin-right: 20px;
+  color: white;
+  cursor: pointer;
+}
+.job-detail-page .detail-title {
+  margin-top: 0px;
+  color: #552d59;
+}
+.job-detail-page .detail-sub-title {
+  color: #552d59;
+  margin-top: 20px;
+}
+.job-detail-page .first_btn {
+  padding: 5px 20px !important;
+  width: 10vw;
+  margin-right: 10px;
+}
+
+.hiring-job-open-list {
+  background-color: white;
+  margin-left: 200px;
+  text-align: left;
+  padding-bottom: 30px;
+  padding: 30px;
+  border-radius: 8px;
+  width: 100%;
+}
+.employee-list-title {
+  margin-left: 20px;
+}
+.employee-list-title h3 {
+  margin-top: 0px;
+}

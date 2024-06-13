@@ -1,0 +1,19 @@
+.profileDP{
+    width: 100px;
+    height: 100px;
+}
+.profileBox{
+    width: 400px;
+}
+.profileBox .name{
+    color: #552D59;
+    font-size: 16px;
+    font-weight: 700;
+    /* margin: 5px; */
+}
+.profileBox .position, .profileBox .email{
+    color:#552D59;
+}
+.profileBox .email{
+    margin-bottom: 10px;
+}
